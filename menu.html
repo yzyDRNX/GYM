@@ -3,12 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Menú</title>
     <script src="scripts.js"></script>
+    <link rel="stylesheet" href="estilos.css">
 </head>
-<body>
-    <div>
-        <button type="button" onclick="Miembro()">Agregar miembro</button>
+
+<body class="menub">
+    <header class="header">
+        <div class="logo">
+            <img src="imgs/logo.png" alt="logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="menu.html">Menú</a></li>
+            </ul>
+        </nav>
+        <a href="logIn.html" class=" btn"><button>Cerrar Sesión</button></a>
+    </header>
+    <div class="menu">
+        <form>
+            <button class="menu-botones" role="button" type="button" onclick="Miembro()">Agregar miembro</button>
+            <button class="menu-botones" role="button" type="button" onclick="Entrenador()">Agregar entrenador</button>
+            <button class="menu-botones" role="button" type="button" onclick="Empleado()">Agregar nuevo empleado</button>
+            <button class="menu-botones" role="button" type="button" onclick="Rutina()">Agregar rutina</button>
+        </form>
+
     </div>
 </body>
 </html>

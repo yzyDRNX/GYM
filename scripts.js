@@ -14,3 +14,20 @@ function checklogin(){
 function Miembro(){
     window.location.href="usuario.html";
 }
+
+function Entrenador(){
+    window.location.href="entrenadores.html";
+}
+
+function Empleado(){
+    window.location.href="personal.html";
+}
+
+function Rutina(){
+    window.location.href="rutinas.html";
+}
+
+function GuardarUsuario(){
+    alert("Usuario guardado con éxito");
+}
+
