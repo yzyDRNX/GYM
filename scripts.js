@@ -12,22 +12,18 @@ function checklogin(){
 }
 
 function Miembro(){
-    window.location.href="usuario.html";
+    window.location.href="usuario.php";
 }
 
 function Entrenador(){
-    window.location.href="entrenadores.html";
+    window.location.href="entrenadores.php";
 }
 
 function Empleado(){
-    window.location.href="personal.html";
+    window.location.href="personal.php";
 }
 
 function Rutina(){
-    window.location.href="rutinas.html";
-}
-
-function GuardarUsuario(){
-    alert("Usuario guardado con éxito");
+    window.location.href="rutinas.php";
 }
 

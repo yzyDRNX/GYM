@@ -22,15 +22,14 @@
 
     <div class="registro-entrenador">
         <h4>Ingresa los datos del entrenador</h4>
-        <form action="">
+        <form action="P_entrenador.php" method="post">
             <input type="text" class="ingreso-entrenador" id="Nombre" name="Nombre" placeholder="Nombre">
             <input type="text" class="ingreso-entrenador" id="Paterno" name="Paterno" placeholder="Apellido Paterno">
             <input type="text" class="ingreso-entrenador" id="Materno" name="Materno" placeholder="Apellido materno">
+            <input type="number" class="ingreso-entrenador" id="Telefono" name="Telefono" placeholder="Teléfono">
             <input type="text" class="ingreso-entrenador" id="Certificaciones" name="Certificaciones" placeholder="Certificaciones">
-            
+            <button class="btnE" role="button" type="submit">Guardar</button>
         </form>
-        <button class="btnE" role="button" type="button">Guardar</button>
     </div>
-    
 </body>
 </html>

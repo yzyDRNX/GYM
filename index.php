@@ -20,7 +20,7 @@
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
-        <a href="logIn.html" class=" btn"><button>Log In</button></a>
+        <a href="logIn.php" class=" btn"><button>Log In</button></a>
     </header>
 
     <section id="home" class="home">
@@ -134,18 +134,20 @@
                     <h2>Deja tu información y te contactaremos</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="column">
-                    <input type="email" placeholder="Ingrese email">
+            <form action="P_contacto.php" method="post">
+                <div class="row">
+                    <div class="column">
+                        <input type="email" name="email" placeholder="Ingrese email">
+                    </div>
+                    <div class="column">
+                        <input type="text" name="nombre" placeholder="Ingrese su nombre">
+                    </div>
                 </div>
-                <div class="column">
-                    <input type="text" placeholder="Ingrese su nombre">
-                </div>
-            </div>
-            <div class="mensaje">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
-                <button>Enviar datos</button>
-            </div>
+                <div class="mensaje">
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
+                    <button type="submit">Enviar datos</button>
+                </div> 
+            </form>
             <div class="row-datos">
                 <div class="column">
                     <i class="fa-solid fa-location-dot"></i> Av. Corrientes

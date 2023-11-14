@@ -11,7 +11,7 @@
 <body>
     <header>
         <div class="logo">
-            <a href="index.html"><img src="imgs/logo3.png" alt="logo del gym"></a>
+            <a href="index.php"><img src="imgs/logo3.png" alt="logo del gym"></a>
             
         </div>
     </header>
